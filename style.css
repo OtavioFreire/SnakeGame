@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'GameOver';
+    src: url('font/game_over.ttf');
+}
+@import url();
+
 #canvas{
-    margin-top: 50px;
+    margin-top: 25px;
+}
+
+#alambrado{
+    background-color: white;
+    width: 450px; 
+    height: 450px;
+}
+body{
+    background-color:black;
+}
+.title{
+    color: white;
+    font-family: 'GameOver';
+}
+#cobra{
+    max-height: 200px;
 }

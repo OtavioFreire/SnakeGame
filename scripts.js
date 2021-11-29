@@ -1,8 +1,11 @@
 let canvas;
+let score;
 let ctx;
 
 window.onload = function(){
     canvas = document.getElementById("canvas");
+    score = document.getElementById("score").innerText;
+    point = 0
     ctx = canvas.getContext("2d");
 
     document.addEventListener("keydown", keyDownEvent);
@@ -11,7 +14,6 @@ window.onload = function(){
     let x = 8;
     setInterval(desenharJogo, 1000 / x);
 };
-    
 
 //Criação da tela de jogo
 let tamanhoTela = tamanhoCaminho = 20;
@@ -50,6 +52,7 @@ function desenharJogo(){
     //Se a cobra comer o alimento
     if (cobraEixoX == appleX && cobraEixoY == appleY){
         tamanhoCauda++;
+        point++;
         appleX = Math.floor(Math.random() * tamanhoTela);
         appleY = Math.floor(Math.random() * tamanhoTela);
     }
@@ -65,11 +68,13 @@ function desenharJogo(){
             tamanhoCaminho,
             tamanhoCaminho
         );
+        if(score != point.toString()){
+            document.getElementById("score").innerText = "00"+ (point.toString())
+        }
         if (caminhoCobra[i].x == cobraEixoX && caminhoCobra[i].y == cobraEixoY && inicio != true){
             tamanhoCauda = defaultTamanhoCauda;
             inicio = true;
             location.reload();
-            window.alert(`VOCÊ PERDEU SUA PONTUAÇÃO É DE ${point}`)
         }
     }
 

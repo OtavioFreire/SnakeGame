@@ -5,15 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jogo Snake</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="grid/simple-grid.min.css">
 </head>
 <body>
     <center>
-        <h8 id="cobra"><img src="images/snake.png" alt="Snake"></h8>
+        <h8 id="cobra"><img src="images/snakeh1.png" alt="Snake"></h8>
         <h8 class="title"><img src="images/nake Game.png" alt="SnakeGame"></h8>
-    <div id="alambrado" >
-        <canvas id="canvas" width="400" height="400"></canvas>
-        <script src="scripts.js"></script>
-    </div>
     </center>
+    <div class="container">
+        <div class="row">
+            <div class="col-5" id="Pontuação">
+                <br>
+                <br>
+                <h8 id="cobraScore">
+                    <img src="images/snakeh8.png" alt="SnakeScore">
+                    <img src="images/core.png" alt="core">
+                </h8>
+                <div>
+                    <p id="score">000</p>
+                </div>
+            </div>
+            <div class="col-4" id="alambrado" >
+                <center>
+                    <canvas id="canvas" width="400" height="400"></canvas>
+                    <script src="scripts.js"></script>
+                </center>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

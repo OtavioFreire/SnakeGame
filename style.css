@@ -23,3 +23,8 @@ body{
 #cobra{
     max-height: 200px;
 }
+#score{
+    color:chartreuse;
+    margin-left: 60px;
+    font-size: 30px;
+}

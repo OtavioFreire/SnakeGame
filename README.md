@@ -1,6 +1,6 @@
 # 🐍Snake Game🐍
 
-#### 🖼 Game image version 0.2
+#### 🖼 Game image version 0.3
 <img align="center" alt="Otavio-html" height="400" src="https://user-images.githubusercontent.com/55114240/143800742-e66624ea-b87c-4e03-9db4-c0076751d613.png" />
 
 #### 👨‍💻 technology used:

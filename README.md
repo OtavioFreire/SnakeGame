@@ -1,6 +1,6 @@
 # 🐍Snake Game🐍
 
-####Play in 
+#### 🕹 Play in https://otaviofreire.github.io/SnakeGame/
 
 #### 🖼 Game image version 0.3
 <img align="center" alt="Otavio-html" height="400" src="https://user-images.githubusercontent.com/55114240/143963072-49c2ee15-888d-44ad-990c-cf00ff940dad.gif" />

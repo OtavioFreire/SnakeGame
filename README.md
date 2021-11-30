@@ -1,7 +1,9 @@
 # 🐍Snake Game🐍
 
+####Play in 
+
 #### 🖼 Game image version 0.3
-<img align="center" alt="Otavio-html" height="400" src="https://user-images.githubusercontent.com/55114240/143800742-e66624ea-b87c-4e03-9db4-c0076751d613.png" />
+<img align="center" alt="Otavio-html" height="400" src="https://user-images.githubusercontent.com/55114240/143963072-49c2ee15-888d-44ad-990c-cf00ff940dad.gif" />
 
 #### 👨‍💻 technology used:
 <div>
